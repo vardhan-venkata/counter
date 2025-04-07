@@ -9,8 +9,8 @@ function App() {
       <p>
         Count: <span>{counter}</span>
       </p>
-      <button onClick={() => setCounter((prev) => prev + 1)}>increment</button>
-      <button onClick={() => setCounter((prev) => prev - 1)}>decrement</button>
+      <button onClick={() => setCounter((prev) => prev + 1)}>Increment</button>
+      <button onClick={() => setCounter((prev) => prev - 1)}>Decrement</button>
     </div>
   );
 }
